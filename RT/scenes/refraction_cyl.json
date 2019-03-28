@@ -1,0 +1,41 @@
+{
+	"objects": [
+		{
+			"type": "cylinder",
+			"position": {"x": 0.0, "y": 0.0, "z": 0.0},
+			"axis": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"radius": 5.0,
+			"height": 10.0,
+			"color": {"r": 1.0, "g": 1.0, "b": 1.0},
+			"ambient": 0.5,
+			"refraction": 0.67,
+			"transparent": 0.5
+		},
+		{
+			"type": "cylinder",
+			"position": {"x": -1.0, "y": 0.0, "z": 0.0},
+			"axis": {"x": 1.0, "y": 5.0, "z": 0.0},
+			"radius": 0.5,
+			"height": 20.0,
+			"color": {"r": 1.0, "g": 0.0, "b": 0.0},
+			"ambient": 0.5
+		}
+	],
+	"lights": [
+		{
+			"type": "sphere",
+			"radius": 0.01,
+			"position": {"x": 0.0, "y": 6.0, "z": -6.0},
+			"axis": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"angle": 60.0,
+			"intensity": 0.7
+		}
+	],
+	"cameras": [
+		{
+			"position": {"x": 0.0, "y": 10.0, "z": -15.0},
+			"up": {"x": 0.0, "y": 1.0, "z": 1.0},
+			"poi": {"x": 0.0, "y": 5.0, "z": 0.0}
+		}
+	]
+}

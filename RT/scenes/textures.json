@@ -1,0 +1,80 @@
+{
+	"objects": [
+		{
+			"type": "plane",
+			"position": {"x": 0.0, "y": -3.0, "z": 0.0},
+			"normal": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"color": {"r": 1.0, "g": 1.0, "b": 1.0},
+			"ambient": 0.7,
+			"procedure": "texture_3"
+		},
+		{
+			"type": "plane",
+			"position": {"x": 0.0, "y": 3.0, "z": 0.0},
+			"normal": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"color": {"r": 1.0, "g": 1.0, "b": 0.0},
+			"ambient": 0.7,
+			"procedure": "texture_3"
+		},
+		{
+			"type": "plane",
+			"position": {"x": -3.0, "y": 0.0, "z": 0.0},
+			"normal": {"x": 1.0, "y": 0.0, "z": 0.0},
+			"color": {"r": 1.0, "g": 0.0, "b": 0.0},
+			"ambient": 0.7,
+			"procedure": "texture_3"
+		},
+		{
+			"type": "plane",
+			"position": {"x": 3.0, "y": 0.0, "z": 0.0},
+			"normal": {"x": 1.0, "y": 0.0, "z": 0.0},
+			"color": {"r": 0.0, "g": 1.0, "b": 0.0},
+			"ambient": 0.7,
+			"procedure": "texture_3"
+		},
+		{
+			"type": "plane",
+			"position": {"x": 0.0, "y": 0.0, "z": 5.0},
+			"normal": {"x": 0.0, "y": 0.0, "z": 1.0},
+			"color": {"r": 0.0, "g": 0.0, "b": 1.0},
+			"ambient": 0.7,
+			"procedure": "texture_3"
+		},
+		{
+			"type": "cylinder",
+			"position": {"x": -1.5, "y": 0.0, "z": 0.0},
+			"axis": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"radius": 0.75,
+			"height": 2.0,
+			"color": {"r": 1.0, "g": 1.0, "b": 1.0},
+			"ambient": 0.3,
+			"procedure": "texture_2"
+		},
+		{
+			"type": "sphere",
+			"position": {"x": 1.5, "y": 1.0, "z": 0.0},
+			"normal": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"radius": 1.0,
+			"color": {"r": 1.0, "g": 1.0, "b": 1.0},
+			"ambient": 0.3,
+			"procedure": "texture_1"
+		}
+	],
+	"lights": [
+		{
+			"type": "sphere",
+			"radius": 0.01,
+			"position": {"x": 0.0, "y": 2.0, "z": -10.0},
+			"axis": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"angle": 60.0,
+			"intensity": 0.7
+		}
+	],
+	"cameras": [
+		{
+			"position": {"x": 0.0, "y": 0.0, "z": -8.0},
+			"up": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"poi": {"x": 0.0, "y": 0.0, "z": 0.0}
+		}
+	]
+}

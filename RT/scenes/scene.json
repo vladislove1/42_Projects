@@ -1,0 +1,106 @@
+{
+	"objects": [
+		{
+			"type": "plane",
+			"position": {"x": 0.0, "y": -5.0, "z": 0.0},
+			"normal": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"color": {"r": 1.0, "g": 0.0, "b": 1.0}
+		},
+		{
+			"type": "sphere",
+			"position": {"x": 0.0, "y": 0.0, "z": 0.0},
+			"radius": 1.0,
+			"normal": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"color": {"r": 1.0, "g": 0.0, "b": 1.0},
+			"procedure": "texture_1"
+		}
+	],
+	"lights": [
+		{
+			"type": "sphere",
+			"radius": 0.01,
+			"position": {"x": 0.0, "y": 5.0, "z": -5.0},
+			"axis": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"angle": 60.0,
+			"intensity": 0.7
+		}
+	],
+	"cameras": [
+		{
+			"position": {"x": 0.0, "y": 1.0, "z": -5.0},
+			"up": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"poi": {"x": 0.0, "y": 0.0, "z": 0.0}
+		}
+	]
+}
+
+//	app->objects[1] = (struct s_obj){
+//		.primitive =
+//		{
+//			.s =
+//			{
+//				.position = {{-1.0f, 0.0f, 0.0f, 0.0f}},
+//				.r = 1.0f,
+//				.r2 = 1.0f
+//			}
+//		},
+//		.color = {{0.0f, 1.0f, 0.0f, 0.0f}},
+//		.type = SPHERE
+//	};
+//	app->objects[3] = (struct s_obj){
+//		.primitive =
+//		{
+//			.cone =
+//			{
+//				.position = {{-4.0f, 0.0f, 0.0f, 0.0f}},
+//				.angle = 30.0f,
+//				.axis = {{0.0f, 1.0f, 0.0f, 0.0f}},
+//				.h = 4.0f
+//			}
+//		},
+//		.color = {{0.0f, 0.5f, 0.85f, 0.0f}},
+//		.type = CONE
+//	};
+//	app->objects[4] = (struct s_obj){
+//		.primitive =
+//		{
+//			.pl =
+//			{
+//				.position = {{0.0f, 0.0f, 3.0f, 0.0f}},
+//				.normal = {{0.0f, 0.0f, 1.0f, 0.0f}}
+//			}
+//		},
+//		.color = {{0.5f, 0.86f, 0.0f, 0.0f}},
+//		.type = PLANE
+//	};
+//	app->objects[1] = (struct s_obj){
+//		.primitive =
+//		{
+//			.disk =
+//			{
+//				.position = {{4.0f, 0.0f, 0.0f, 0.0f}},
+//				.normal = {{0.0f, 0.0f, 1.0f, 0.0f}},
+//				.r = 2.0f
+//			}
+//		},
+//		.color = {{0.0f, 0.0f, 1.0f, 0.0f}},
+//		.type = DISK
+//	};
+// }
+,
+		{
+			"type": "cylinder",
+			"color": {"r": 0.0, "g": 0.0, "b": 1.0},
+			"position": {"x": 2.0, "y": 1.0, "z": 0.0},
+			"radius": 1.0,
+			"axis": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"height": 4.0
+		},
+		{
+			"type": "cone",
+			"color": {"r": 0.0, "g": 0.5, "b": 0.85},
+			"position":  {"x": -4.0, "y": 0.0, "z": 0.0},
+			"angle": 30.0,
+			"axis": {"x": 0.0, "y": 1.0, "z": 0.0},
+			"height": 4.0
+		}
